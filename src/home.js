@@ -44,7 +44,7 @@ const Home = () => {
 
   return (
     <div className="home">
-        <button onClick={click} id="id" >Click here to remind yourself of your tasks</button>
+        <button onClick={click} id="id" >Click here to remind yourself of your remaining tasks</button>
       <div className="todo" >
         <form action="" onSubmit={submit}>
           <label htmlFor="">To-Do List</label> <br />

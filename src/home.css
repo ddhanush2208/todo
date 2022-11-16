@@ -1,0 +1,50 @@
+.disp{
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+    /* margin: 125px; */
+    /* border: 1px solid brown; */
+    width: 550px;
+    margin-left: 520px;
+
+}
+
+.det{
+    border:8px double lightsalmon;
+    color: darkred;
+    padding: 10px;
+    
+}
+input{
+    background-color: salmon;
+    color: black;
+    width: 250px;
+     height: 40px;   
+}
+::placeholder{
+    color: black;
+}
+label{
+    font-size: xx-large;
+}
+
+button{
+    background-color: sienna;
+}
+.todo{
+    width: 10cm;
+    margin-left: 700px;
+    opacity: 0;
+}
+
+.todo.visible{
+    /* opacity: 1; */
+    /* transition: opacity 1s ease-in-out; */
+}
+#id{
+    width: 10cm;
+    margin-left: 600px;
+    margin-top: 50px;
+    height: 40px;
+}
+
